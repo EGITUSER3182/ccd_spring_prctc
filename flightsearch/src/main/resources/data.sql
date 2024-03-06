@@ -1,0 +1,18 @@
+INSERT INTO FLIGHT_FARE (flight_No, flight_Date, amount, currency) VALUES ('EK0543', '01/Mar/24', 500, 'AED');
+INSERT INTO FLIGHT_FARE (flight_No, flight_Date, amount, currency) VALUES ('EK0545', '01/Mar/24', 600, 'AED');
+INSERT INTO FLIGHT_FARE (flight_No, flight_Date, amount, currency) VALUES ('EK0547', '02/Mar/24', 1200, 'AED');
+INSERT INTO FLIGHT_FARE (flight_No, flight_Date, amount, currency) VALUES ('EK0544', '03/Mar/24', 480, 'AED');
+INSERT INTO FLIGHT_FARE (flight_No, flight_Date, amount, currency) VALUES ('EK0546', '01/Mar/24', 620, 'AED');
+INSERT INTO FLIGHT_FARE (flight_No, flight_Date, amount, currency) VALUES ('EK0548', '02/Mar/24', 1300, 'AED');
+INSERT INTO Flight_Seat_Availability (flight_No, flight_Date, available_Seat_Count) VALUES ('EK0543', '01/Mar/24', 300);
+INSERT INTO Flight_Seat_Availability (flight_No, flight_Date, available_Seat_Count) VALUES ('EK0545', '01/Mar/24', 280);
+INSERT INTO Flight_Seat_Availability (flight_No, flight_Date, available_Seat_Count) VALUES ('EK0547', '02/Mar/24', 340);
+INSERT INTO Flight_Seat_Availability (flight_No, flight_Date, available_Seat_Count) VALUES ('EK0544', '03/Mar/24', 280);
+INSERT INTO Flight_Seat_Availability (flight_No, flight_Date, available_Seat_Count) VALUES ('EK0546', '01/Mar/24', 260);
+INSERT INTO Flight_Seat_Availability (flight_No, flight_Date, available_Seat_Count) VALUES ('EK0548', '02/Mar/24', 320);
+INSERT INTO Flight_Schedule (flight_No, flight_Date, dep_Airport, dep_City, arr_Airport, arr_City) VALUES ('EK0543', '01/Mar/24', 'BOM', 'Bombay', 'DXB', 'Dubai');
+INSERT INTO Flight_Schedule (flight_No, flight_Date, dep_Airport, dep_City, arr_Airport, arr_City) VALUES ('EK0545', '01/Mar/24', 'DEL',	'Delhi', 'DXB',	'Dubai');
+INSERT INTO Flight_Schedule (flight_No, flight_Date, dep_Airport, dep_City, arr_Airport, arr_City) VALUES ('EK0547', '02/Mar/24', 'LHR',	'London', 'DXB', 'Dubai');
+INSERT INTO Flight_Schedule (flight_No, flight_Date, dep_Airport, dep_City, arr_Airport, arr_City) VALUES ('EK0544', '03/Mar/24', 'DXB',	'Dubai', 'BOM',	'Bombay');
+INSERT INTO Flight_Schedule (flight_No, flight_Date, dep_Airport, dep_City, arr_Airport, arr_City) VALUES ('EK0546', '01/Mar/24', 'DXB',	'Dubai', 'DEL',	'Delhi');
+INSERT INTO Flight_Schedule (flight_No, flight_Date, dep_Airport, dep_City, arr_Airport, arr_City) VALUES ('EK0548', '02/Mar/24', 'DXB',	'Dubai', 'LHR',	'London');
